@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- UTF-8 Support -->
     <meta charset="UTF-8" />
+    <!-- IE Compatibility -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sushiman | Sushi Landing Page</title>
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#B1454A" />
+    <!-- Description -->
+    <meta
+      name="description"
+      content="Modern Animated Sushi Order Landing Page"
+    />
+    <!-- Author -->
+    <meta name="author" content="Sanidhya Kr. Verma" />
+
+    <!-- Icon -->
     <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Title -->
+    <title>Sushiman | Sushi Order Landing Page</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <nav class="header__nav">
+        <!-- Brand Logo -->
         <div class="header__logo">
           <h4 data-aos="fade-down" title="Sushiman">Sushiman</h4>
           <div class="header__logo-overlay"></div>
         </div>
 
+        <!-- Nav Menu -->
         <ul class="header__menu" data-aos="fade-down">
           <li>
             <a href="#menu" title="Menu">Menu</a>
@@ -46,6 +65,7 @@
           </li>
         </ul>
 
+        <!-- Nav Menu (Mobile) -->
         <ul class="header__menu-mobile" data-aos="fade-down">
           <li title="Menu">
             <img src="assets/menu.svg" alt="menu" />
@@ -54,7 +74,9 @@
       </nav>
     </header>
 
+    <!-- Hero -->
     <section class="hero">
+      <!-- Hero Backdrop -->
       <div class="hero-image">
         <img src="assets/sushi-1.png" alt="sushi_landing" data-aos="fade-up" />
         <h2 data-aos="fade-up">
@@ -65,6 +87,7 @@
         <div class="hero-image__overlay"></div>
       </div>
 
+      <!-- Hero Content -->
       <div class="hero-content">
         <div class="hero-content-info" data-aos="fade-left">
           <h1>Feel the taste of Japanese food</h1>
@@ -84,6 +107,7 @@
           </div>
         </div>
 
+        <!-- Hero Testimonials -->
         <div class="hero-content__testimonial" data-aos="fade-up">
           <div class="hero-content__customer flex-center">
             <h4>24<span>k+</span></h4>
@@ -101,7 +125,9 @@
       </div>
     </section>
 
+    <!-- About Us -->
     <section class="about-us" id="about-us">
+      <!-- About Us Images -->
       <div class="about-us__image">
         <div class="about-us__image-sushi3">
           <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
@@ -117,11 +143,16 @@
         </div>
       </div>
 
+      <!-- About Us Content -->
       <div class="about-us__content" data-aos="fade-left">
+        <!-- Sushi Subtitle -->
         <p class="sushi__subtitle">About Us / 私たちに関しては</p>
+        <!-- Sushi Title -->
         <h3 class="sushi__title">
           Our mission is to bring true Japanese flavours to you.
         </h3>
+
+        <!-- Sushi Description -->
         <p class="sushi__description">
           We will continue to provide the experience of Omotenashi, the Japanese
           mindset of hospitality, with our shopping and dinning for our
@@ -130,11 +161,14 @@
       </div>
     </section>
 
+    <!-- Popular Foods -->
     <section class="popular-foods" id="menu">
+      <!-- Title -->
       <h2 class="popular-foods__title" data-aos="flip-up">
         Popular Food / 人気
       </h2>
 
+      <!-- Popular Foods Filter -->
       <div
         class="popular-foods__filters sushi__hide-scrollbar"
         data-aos="fade-up"
@@ -159,7 +193,9 @@
         <button class="popular-foods__filter-btn">Others</button>
       </div>
 
+      <!-- Popular Foods Catalogue -->
       <div class="popular-foods__catalogue" data-aos="fade-up">
+        <!-- Popular Foods Card 1 -->
         <article class="popular-foods__card">
           <img
             src="assets/sushi-12.png"
@@ -177,6 +213,8 @@
             <p class="popular-foods__card-price">$19.99</p>
           </div>
         </article>
+
+        <!-- Popular Foods Card 2 -->
         <article class="popular-foods__card active-card">
           <img
             src="assets/sushi-11.png"
@@ -194,6 +232,8 @@
             <p class="popular-foods__card-price">$16.99</p>
           </div>
         </article>
+
+        <!-- Popular Foods Card 3 -->
         <article class="popular-foods__card">
           <img
             src="assets/sushi-10.png"
@@ -213,22 +253,29 @@
         </article>
       </div>
 
+      <!-- Explore Food -->
       <button class="popular-foods__button" title="Explore Food">
         Explore Food
         <img src="assets/arrow-right.svg" alt="arrow-right" />
       </button>
     </section>
 
+    <!-- Trending -->
     <section class="trending" id="food">
+      <!-- Trending Sushi -->
       <section class="trending-sushi">
         <div class="trending__content" data-aos="fade-right">
+          <!-- Subtitle -->
           <p class="sushi__subtitle">What's Trending / トレンド</p>
+          <!-- Title -->
           <h3 class="sushi__title">Japanese Sushi</h3>
 
+          <!-- Description -->
           <p class="sushi__description">
             Feel the taste of the most delicious Sushi here.
           </p>
 
+          <!-- Trending Sushi List -->
           <ul class="trending__list flex-between">
             <li>
               <div class="trending__icon flex-center">
@@ -275,6 +322,7 @@
           </ul>
         </div>
 
+        <!-- Trending Sushi Image -->
         <div class="trending__image flex-center">
           <img src="assets/sushi-5.png" alt="sushi" data-aos="fade-left" />
 
@@ -288,11 +336,14 @@
         </div>
       </section>
 
+      <!-- Discover -->
       <div class="trending__discover" data-aos="zoom-in">
         <p>Discover</p>
       </div>
 
+      <!-- Trending Drink -->
       <section class="trending-drink">
+        <!-- Trending Drink Images -->
         <div class="trending__image flex-center">
           <img src="assets/sushi-4.png" alt="sushi" data-aos="fade-right" />
 
@@ -305,14 +356,19 @@
           </div>
         </div>
 
+        <!-- Trending Content -->
         <div class="trending__content" data-aos="fade-left">
+          <!-- Subtitle -->
           <p class="sushi__subtitle">What's Trending / トレンド</p>
+          <!-- Title -->
           <h3 class="sushi__title">Japanese Drinks</h3>
 
+          <!-- Description -->
           <p class="sushi__description">
             Feel the taste of the most delicious Japanese Drinks here.
           </p>
 
+          <!-- Trending Drink List -->
           <ul class="trending__list flex-between">
             <li>
               <div class="trending__icon flex-center">
@@ -361,10 +417,14 @@
       </section>
     </section>
 
+    <!-- Subscription -->
     <section class="subscription flex-center" id="services">
+      <!-- Title -->
       <h2 data-aos="flip-down">Get Offers straight<br />to your inbox</h2>
+      <!-- Subtitle -->
       <p data-aos="fade-up">Sign up for the Sushiman Newsletter</p>
 
+      <!-- Newsletter Form -->
       <form
         method="POST"
         action="#"
@@ -374,14 +434,19 @@
         class="subscription__form"
         data-aos="fade-up"
       >
+        <!-- Newsletter Form Input -->
         <input type="text" placeholder="Enter your E-mail address" required />
+        <!-- Newsletter Form Button -->
         <button type="submit" title="Get Started">Get Started</button>
       </form>
     </section>
 
+    <!-- Footer -->
     <footer class="footer flex-between">
+      <!-- Footer Brand Logo -->
       <h3 class="footer__logo" title="Sushiman"><span>Sushi</span>man</h3>
 
+      <!-- Footer Nav Links -->
       <ul class="footer__nav">
         <li title="Menu"><a href="#menu">Menu</a></li>
         <li title="Food"><a href="#food">Food</a></li>
@@ -389,17 +454,23 @@
         <li title="About Us"><a href="#about-us">About Us</a></li>
       </ul>
 
+      <!-- Footer Social Links -->
       <ul class="footer__social">
+        <!-- Facebook -->
         <li title="Facebook">
           <a href="#" class="flex-center">
             <img src="assets/facebook.svg" alt="facebook" />
           </a>
         </li>
+
+        <!-- Instagram -->
         <li title="Instagram">
           <a href="#" class="flex-center">
             <img src="assets/instagram.svg" alt="instagram" />
           </a>
         </li>
+
+        <!-- Twitter -->
         <li title="Twitter" class="flex-center">
           <a href="#" class="flex-center">
             <img src="assets/twitter.svg" alt="twitter" />
@@ -408,6 +479,7 @@
       </ul>
     </footer>
 
+    <!-- Javascript -->
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
