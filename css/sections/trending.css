@@ -28,7 +28,7 @@
 }
 
 .trending-sushi,
-.trending-drinks {
+.trending-drink {
   width: 100%;
   min-height: 640px;
   display: flex;
@@ -93,7 +93,7 @@
   background-image: url("../../assets/japanese_sushi.png");
 }
 
-.trending-drinks .trending__image {
+.trending-drink .trending__image {
   background-image: url("../../assets/japanese_drinks.png");
 }
 
