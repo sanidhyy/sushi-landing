@@ -12,25 +12,25 @@
     <header>
       <nav class="header__nav">
         <div class="header__logo">
-          <h4 data-aos="fade-down">Sushiman</h4>
+          <h4 data-aos="fade-down" title="Sushiman">Sushiman</h4>
           <div class="header__logo-overlay"></div>
         </div>
 
         <ul class="header__menu" data-aos="fade-down">
           <li>
-            <a href="#menu">Menu</a>
+            <a href="#menu" title="Menu">Menu</a>
           </li>
           <li>
-            <a href="#food">Food</a>
+            <a href="#food" title="Food">Food</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services" title="Services">Services</a>
           </li>
           <li>
-            <a href="#about-us">About Us</a>
+            <a href="#about-us" title="About Us">About Us</a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" title="Search">
               <img src="assets/search.svg" alt="search" />
             </a>
           </li>
@@ -47,7 +47,7 @@
         </ul>
 
         <ul class="header__menu-mobile" data-aos="fade-down">
-          <li>
+          <li title="Menu">
             <img src="assets/menu.svg" alt="menu" />
           </li>
         </ul>
@@ -74,8 +74,10 @@
           </p>
 
           <div class="hero-content__buttons">
-            <button class="hero-content__order-button">Order Now</button>
-            <button class="hero-content__play-button">
+            <button class="hero-content__order-button" title="Order Now">
+              Order Now
+            </button>
+            <button class="hero-content__play-button" title="How to Order">
               <img src="assets/play-circle.svg" alt="play" />
               How to Order
             </button>
@@ -105,7 +107,7 @@
           <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
         </div>
 
-        <button class="about-us__button">
+        <button class="about-us__button" title="Learn More">
           Learn More
           <img src="assets/arrow-up-right.svg" alt="learn more" />
         </button>
@@ -211,7 +213,7 @@
         </article>
       </div>
 
-      <button class="popular-foods__button">
+      <button class="popular-foods__button" title="Explore Food">
         Explore Food
         <img src="assets/arrow-right.svg" alt="arrow-right" />
       </button>
@@ -363,34 +365,42 @@
       <h2 data-aos="flip-down">Get Offers straight<br />to your inbox</h2>
       <p data-aos="fade-up">Sign up for the Sushiman Newsletter</p>
 
-      <div class="subscription__form" data-aos="fade-up">
-        <input type="text" placeholder="Enter your E-mail address" />
-        <button>Get Started</button>
-      </div>
+      <form
+        method="POST"
+        action="#"
+        onsubmit="return false"
+        autocomplete="off"
+        autocapitalize="off"
+        class="subscription__form"
+        data-aos="fade-up"
+      >
+        <input type="text" placeholder="Enter your E-mail address" required />
+        <button type="submit" title="Get Started">Get Started</button>
+      </form>
     </section>
 
     <footer class="footer flex-between">
-      <h3 class="footer__logo"><span>Sushi</span>man</h3>
+      <h3 class="footer__logo" title="Sushiman"><span>Sushi</span>man</h3>
 
       <ul class="footer__nav">
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#food">Food</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about-us">About Us</a></li>
+        <li title="Menu"><a href="#menu">Menu</a></li>
+        <li title="Food"><a href="#food">Food</a></li>
+        <li title="Services"><a href="#services">Services</a></li>
+        <li title="About Us"><a href="#about-us">About Us</a></li>
       </ul>
 
       <ul class="footer__social">
-        <li>
+        <li title="Facebook">
           <a href="#" class="flex-center">
             <img src="assets/facebook.svg" alt="facebook" />
           </a>
         </li>
-        <li>
+        <li title="Instagram">
           <a href="#" class="flex-center">
             <img src="assets/instagram.svg" alt="instagram" />
           </a>
         </li>
-        <li class="flex-center">
+        <li title="Twitter" class="flex-center">
           <a href="#" class="flex-center">
             <img src="assets/twitter.svg" alt="twitter" />
           </a>
