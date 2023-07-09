@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 
-.footer__social li {
+.footer__social li a {
   width: 42px;
   height: 42px;
   background-color: var(--secondary-color);
