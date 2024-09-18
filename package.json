@@ -23,7 +23,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.5.3"
+    "vite": "^4.5.5"
   },
   "dependencies": {
     "aos": "^2.3.4"
