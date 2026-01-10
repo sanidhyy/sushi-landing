@@ -1,7 +1,7 @@
 ## Contributing
 
-[fork]: https://github.com/Technical-Shubham-tech/sushi-landing/fork
-[pr]: https://github.com/Technical-Shubham-tech/sushi-landing/compare
+[fork]: https://github.com/sanidhyy/sushi-landing/fork
+[pr]: https://github.com/sanidhyy/sushi-landing/compare
 [style]: https://standardjs.com/
 [code-of-conduct]: CODE_OF_CONDUCT.md
 
