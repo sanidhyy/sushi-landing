@@ -2,14 +2,14 @@
 
 ![Modern Animated Sushi Order Landing Page](/.github/images/img_main.png "Modern Animated Sushi Order Landing Page")
 
-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/Technical-Shubham-tech "Ask Me Anything!")
-[![GitHub license](https://img.shields.io/github/license/Technical-Shubham-tech/sushi-landing)](https://github.com/Technical-Shubham-tech/sushi-landing/blob/main/LICENSE.md "GitHub license")
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Technical-Shubham-tech/sushi-landing/commits/main "Maintenance")
-[![GitHub branches](https://badgen.net/github/branches/Technical-Shubham-tech/sushi-landing)](https://github.com/Technical-Shubham-tech/sushi-landing/branches "GitHub branches")
-[![Github commits](https://badgen.net/github/commits/Technical-Shubham-tech/sushi-landing/main)](https://github.com/Technical-Shubham-tech/sushi-landing/commits "Github commits")
+[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/sanidhyy "Ask Me Anything!")
+[![GitHub license](https://img.shields.io/github/license/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/blob/main/LICENSE.md "GitHub license")
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sanidhyy/sushi-landing/commits/main "Maintenance")
+[![GitHub branches](https://badgen.net/github/branches/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/branches "GitHub branches")
+[![Github commits](https://badgen.net/github/commits/sanidhyy/sushi-landing/main)](https://github.com/sanidhyy/sushi-landing/commits "Github commits")
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ace68c76-8f1a-40a1-ae51-638f97d0b9b6/deploy-status)](https://sushi-landing.netlify.app/ "Netlify Status")
-[![GitHub issues](https://img.shields.io/github/issues/Technical-Shubham-tech/sushi-landing)](https://github.com/Technical-Shubham-tech/sushi-landing/issues "GitHub issues")
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Technical-Shubham-tech/sushi-landing)](https://github.com/Technical-Shubham-tech/sushi-landing/pulls "GitHub pull requests")
+[![GitHub issues](https://img.shields.io/github/issues/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/issues "GitHub issues")
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/sanidhyy/sushi-landing)](https://github.com/sanidhyy/sushi-landing/pulls "GitHub pull requests")
 
 ## ⚠️ Before you start
 
@@ -44,8 +44,8 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 ## :rocket: Follow Me
 
-[![GitHub followers](https://img.shields.io/github/followers/Technical-Shubham-tech?style=social&label=Follow&maxAge=2592000)](https://github.com/Technical-Shubham-tech "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTechnicalShubam)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FTechnical-Shubham-tech%2Fmedical-chat-app "Tweet")
+[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fsanidhyyy)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fmedical-chat-app "Tweet")
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw "Subscribe my Channel")
 
 ## :star: Give A Star
